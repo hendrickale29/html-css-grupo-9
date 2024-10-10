@@ -1,0 +1,44 @@
+/* Estilo para le body */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Cambia la fuente de mi texto */
+    margin: 0; /* Elimina el margen por defecto del body */
+    padding: 0; /* Elimina el padding por defecto del body */
+    background-color: rgb(0, 89, 255); /* Color de fondo*/
+    color: black; /* Color de texto*/
+
+}
+
+header {
+    background-color: rgb(95, 255, 80); /* color de fondo del header*/
+    color: white; /*color de texto*/
+    padding: 20px;/* Especio interno del header*/
+    text-align: center; /* Alineacion del texto al centro */
+    box-shadow: 0 20px 5px rgba(0, 0, 0, 0.349); /*Sombra del header*/
+    border: 3px solid red; /* Borde de las etiquetas HTML */
+    margin: 10px 10px 0px 10px; /* Elimina el margen por defecto del body */
+
+}
+
+nav ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+}
+
+nav ul li {
+    display: inline;
+}
+
+#sobre mi { 
+    text-transform: uppercase;
+}
+
+#contacto { 
+    text-decoration-line: underline;
+}
+
+.estilos-generales { 
+    text-align: center;
+}
+
+.tamaño-texto {
+    font-size: 50px;
+}
